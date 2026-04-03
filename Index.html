@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>formulário</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <form action="#" method="POST ou GET">
+      <div>
+        <label for="nome">Nome</label>
+        <input
+          type="text"
+          name="nome"
+          id="nome"
+          placeholder="Digite aqui seu nome"
+          required
+        />
+      </div>
+
+      <br />
+
+      <div>
+        <label for="sobrenome">Sobrenome</label>
+        <input type="text" name="sobrenome" id="sobrenome" />
+      </div>
+
+      <br />
+
+      <div>
+        <label for="nomeMae">Nome da Mae</label>
+        <input type="text" name="nomemae" id="nomemae" />
+      </div>
+
+      <br />
+
+      <div>
+        <label for="nomepai">Nome do pai</label>
+        <input type="text" name="nomepai" id="nomepai" />
+      </div>
+
+      <br />
+
+      <div>
+        <label for="idade">Idade</label>
+        <input
+          type="number"
+          name="idade"
+          id="idade"
+          placeholder="Digite sua Idade"
+          required
+          min="0"
+        />
+      </div>
+
+      <br />
+
+      <div>
+        <label for="dataNascimento">Data de Nascimento</label>
+        <input type="date" name="dataNascimento" id="dataNascimento" />
+      </div>
+
+      <br />
+
+      <div>
+        <label for="horaNascimento">Hora do Nascimento</label>
+        <input type="time" name="horaNascimento" id="horaNascimento" />
+      </div>
+
+      <br />
+
+      <div>
+        <label for="dataCadastro">Data do Cadastro</label>
+        <input type="datetime-local" name="dataCadastro" id="dataCadastro" />
+      </div>
+
+      <br />
+
+      <div>
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" />
+      </div>
+
+      <br />
+
+      <div>
+        <label for="senha">Senha</label>
+        <input type="password" name="senha" id="senha" />
+      </div>
+
+      <br />
+
+      <div>
+        <label for="endereço">Endereço</label>
+        <input type="text" name="endereço" id="endereço" />
+        <label for="numero">Numero</label>
+        <input type="number" name="numero" id="numero" />
+      </div>
+
+      <br />
+
+      <div>
+        <label for="mensagem">Observaçao</label>
+        <textarea
+          name="mensagem"
+          id="mensagem"
+          rows="4"
+          cols="40"
+          placeholder="Digite sua observação"
+        ></textarea>
+      </div>
+
+      <br />
+
+      <div>
+        <label for="sexo">Sexo</label>
+        <select name="sexo" id="sexo">
+          <option value="masculino">Masculino</option>
+          <option value="feminino">Feminino</option>
+          <option value="naoinformado">Prefiro nao dizer</option>
+        </select>
+      </div>
+
+      <br />
+
+      <div>
+        <label for="satisfacao">Nivel de satisfação</label>
+        <input type="range" name="satisfacao" id="satisfacao" />
+      </div>
+
+      <div>
+        <label for="cor">Cor favorita</label>
+        <input type="color" name="cor" id="cor" />
+      </div>
+
+      <div>
+        <p>Área escolhida</p>
+        <input type="radio" name="front-end" id="front-end" />
+        <label for="front-end">Front-end</label>
+
+        <input type="radio" name="back-end" id="back-end" />
+        <label for="back-end">Back-end</label>
+
+        <input type="radio" name="full-stack" id="full-stack" />
+        <label for="full-stack">Full-Stack</label>
+
+        <input type="radio" name="mobile" id="mobile" />
+        <label for="mobile">Mobile</label>
+      </div>
+
+      <div>
+        <p>Área escolhida</p>
+        <input type="checkbox" name="front-end" id="front-end" />
+        <label for="front-end">Front-end</label>
+
+        <input type="checkbox" name="back-end" id="back-end" />
+        <label for="back-end">Back-end</label>
+
+        <input type="checkbox" name="full-stack" id="full-stack" />
+        <label for="full-stack">Full-Stack</label>
+
+        <input type="checkbox" name="mobile" id="mobile" />
+        <label for="mobile">Mobile</label>
+      </div>
+
+      <button type="submit">Enviar Formulário</button>
+    </form>
+  </body>
+</html>
