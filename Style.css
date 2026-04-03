@@ -1,0 +1,108 @@
+/* reset do CSS */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f3f4f6;
+  height: 100vh;
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+form {
+  width: 30%;
+  background-color: white;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+form h1 {
+  font-size: 20px;
+  text-align: center;
+}
+
+.container-input {
+  display: flex;
+  flex-direction: column;
+}
+
+.container-input label {
+  font-size: 12px;
+}
+
+.container-input input {
+  border: 1px solid #e7e9ec;
+  border-radius: 8px;
+  padding: 12px;
+}
+
+.container-checkbox {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container-checkbox label {
+  font-size: 12px;
+}
+
+.content-checkbox {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 5px;
+}
+
+button {
+  border: none;
+  background-color: #9334e8;
+  color: white;
+  width: 100%;
+  padding: 10px 0px;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #ae6de8;
+}
+
+a {
+  text-decoration: none;
+  color: #9334e8;
+  font-size: 12px;
+}
+
+p {
+  text-align: center;
+  font-size: 12px;
+}
+
+@media (max-widht: 1300px) {
+  form {
+    width: 45%;
+  }
+}
+
+@media (max-widht: 900px) {
+  form {
+    width: 60%;
+  }
+}
+
+@media (max-widht: 600px) {
+  form {
+    width: 90%;
+  }
+}
